@@ -8,7 +8,7 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   rm -rf /var/lib/apt/lists/*
 
-RUN git clone https://github.com/luffy8979/Zokou-MD-english /root/Zokou_BOt
+RUN git clone https://github.com/Caleb-debug848/Zokou-MD-english /root/Zokou_BOt
 WORKDIR /root/Zokou_Bot/
 
 
